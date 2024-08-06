@@ -1,0 +1,9 @@
+*.raw filter=lfs diff=lfs merge=lfs -text
+*.lab filter=lfs diff=lfs merge=lfs -text
+*.sin filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.mat filter=lfs diff=lfs merge=lfs -text
+# *.txt filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+acquisition/** filter=lfs diff=lfs merge=lfs -text
+*jld2 filter=lfs diff=lfs merge=lfs -text
